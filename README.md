@@ -12,7 +12,7 @@ for user authorization. Texts available from folder named "texts"
 "I want to see gaze point" - takes x,y coordinates, and then draws a point on the screen
 
 **Text screen**
-  While the screen is active, the weight of each sentence increases depending on the coordinates
+While the screen is active, the weight of each sentence increases depending on the coordinates
 ![Screenshot](description/text_screen.png)
 
 **Question screen**
@@ -49,5 +49,5 @@ need to use mainloop
   
   *get_bbox(x,y)* (method) - find sentence according to coordinates x,y
 
-##**NOTE: if you run code not in jupyter notebook, need to comment rows with 'display'** 
+**NOTE: if you run code not in jupyter notebook, need to comment rows with 'display'** 
 
