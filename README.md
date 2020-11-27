@@ -40,10 +40,14 @@ need to use mainloop
 
 **Create_text**(user_name,user_text,text_name,user_gender,user_age,points,eye_tracker=True,verbose=True,see_rectangle=True)  
   points=boolean(True to see point on screen)
+  
   eye_tracker=True - when coordinate range from 0 to 1 else False
+  
   verbose=True - to see output in real time
+  
   see_rectangle=True - to see rectangle around the words
+  
   get_bbox(x,y) (method) - find sentence according to coordinates x,y
 
-**NOTE: if you run code not in jupyter notebook, need to comment rows with 'display' 
+##**NOTE: if you run code not in jupyter notebook, need to comment rows with 'display'** 
 
